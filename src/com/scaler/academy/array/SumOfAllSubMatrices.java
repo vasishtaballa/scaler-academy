@@ -4,6 +4,7 @@ import com.scaler.academy.util.ArrayUtil;
 
 import java.util.ArrayList;
 
+
 /**
  * Problem Description
  * Given a 2D Matrix A of dimensions N*N, we need to return the sum of all possible submatrices.
