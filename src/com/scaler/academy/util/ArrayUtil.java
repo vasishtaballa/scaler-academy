@@ -14,5 +14,13 @@ public class ArrayUtil {
         }
         return matrixList;
     }
+
+    public static ArrayList<Integer> getIntegerArrayListFromArray(int[] array) {
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = 0; i < array.length; i++) {
+            list.add(array[i]);
+        }
+        return list;
+    }
 }
 
