@@ -70,6 +70,7 @@ public class ReArrangeTheArray {
      * - We use negative values to mark visited indices.
      * - Storing -(i + 1) ensures that we can distinguish between visited and unvisited indices.
      * - The +1 is added to avoid confusion with index 0, which would be stored as 0 if we simply negated it.
+     * - If we don't add +1, we wouldn't be able to differentiate between an index that was originally 0 and one that was visited and marked as 0.
      *
      * @param A
      * @return
